@@ -25,11 +25,11 @@ public class Hello extends HttpServlet {
     sb.append("</head>");
     sb.append("<body>");
 
-    sb.append("<p>SalesShopCode:");
+    sb.append("<p>SalesShopCode Is :");
     sb.append(val_SalesShopCode__c);
     sb.append("</p>");
 
-    sb.append("<p>SalesOrgCode");
+    sb.append("<p>SalesOrgCode Is :");
     sb.append(val_SalesOrgCode__c);
     sb.append("</p>");
 
