@@ -35,6 +35,10 @@ public class Hello extends HttpServlet {
 
     sb.append("<a href=");
     sb.append("\"https://login.salesforce.com/?locale=jp&un=an.chen@accenture.com.kao.face.dev&pw=Kao@123456/\"");
+    sb.append("<img src=");
+    sb.append("\"https://www.homepage-tukurikata.com/example.jpg\");
+    sb.append(" alt=");
+    sb.append("\"ホームページの作り方\">\");
     sb.append("></a>");
 
     sb.append("</body>");
