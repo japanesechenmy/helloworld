@@ -33,6 +33,10 @@ public class Hello extends HttpServlet {
     sb.append(val_SalesOrgCode__c);
     sb.append("</p>");
 
+    sb.append("<a href=");
+    sb.append("\"https://login.salesforce.com/?locale=jp&un=an.chen@accenture.com.kao.face.dev&pw=Kao@123456/\"");
+    sb.append("></a>");
+
     sb.append("</body>");
     sb.append("</html>");
 
