@@ -34,12 +34,12 @@ public class Hello extends HttpServlet {
     sb.append("</p>");
 
     sb.append("<a href=");
-    sb.append("\"https://login.salesforce.com/?locale=jp&un=an.chen@accenture.com.kao.face.dev&pw=Kao@123456/\"");
-    sb.append("<img src=");
-    sb.append("\"https://www.homepage-tukurikata.com/example.jpg\");
-    sb.append(" alt=");
-    sb.append("\"ホームページの作り方\">\");
-    sb.append("></a>");
+    sb.append("\"https://login.salesforce.com/?locale=jp&un=an.chen@accenture.com.kao.face.dev&pw=Kao@123456/\" ");
+    sb.append("target=");
+    sb.append("\"_blank\" ");
+    sb.append("rel=");
+    sb.append("\"nofollow noopener\" ");
+    sb.append(">Face Access</a>");
 
     sb.append("</body>");
     sb.append("</html>");
