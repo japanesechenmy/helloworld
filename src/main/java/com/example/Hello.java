@@ -34,7 +34,8 @@ public class Hello extends HttpServlet {
     sb.append("</p>");
 
     sb.append("<a href=");
-    sb.append("\"https://face--dev.lightning.force.com/lightning/r/ServiceHistory__c/a090w000001TeYjAAK/view\" ");
+    //sb.append("\"https://face--dev.lightning.force.com/lightning/r/ServiceHistory__c/a090w000001TeYjAAK/view\" ");
+    sb.append("\"https://face--dev.lightning.force.com/lightning/n/Tab1?tenpo=8888&brand=9999\" ");
     sb.append("target=");
     sb.append("\"_blank\" ");
     sb.append("rel=");
